@@ -27,10 +27,15 @@ body {
   height: 5rem;
   display: flex;
   align-items: center;
-  background: #ff0062;
+  background: #026b6e;
   padding: 0 1rem;
 }
-
+.additional-help{
+  text-align: center;
+  padding: .4rem;
+  font-size: .7rem;
+  color: #009499;
+}
 #main-header h1 {
   font-weight: 400;
   color: white;
@@ -58,14 +63,6 @@ header p{
   
 
 }
-/* 
-footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  text-align: center;
-} */
 
 ul {
   list-style: none;
@@ -110,16 +107,16 @@ ul h2{
 }
 button {
   font: inherit;
-  background: #ff0062;
+  background: #03a6ac;
   color: white;
-  border: 1px solid #ff0062;
+  border: 1px solid #03a6ac;
   padding: 0.5rem 1.5rem;
   cursor: pointer;
 }
 
 button.alt {
   background: white;
-  color: #ff0062;
+  color: #03a6ac;
   margin: .7rem 0;
 }
 
@@ -129,8 +126,8 @@ button:focus {
 
 button:hover,
 button:active {
-  background: #ff2579;
-  border-color: #ff2579;
+  background: #03a6ac;
+  border-color: #03a6ac;
   color: white;
 }
 
@@ -148,7 +145,7 @@ button:active {
 }
 
 #active-projects > header {
-  background: #870099;
+  background: #03a6ac;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
   padding: 1rem;
@@ -169,7 +166,7 @@ button:active {
 #finished-projects > header {
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
-  background: #535353;
+  background: #686767;
   padding: 1rem;
   display: flex;
   justify-content: space-between;
@@ -190,13 +187,14 @@ button:active {
  padding: .7rem;
 }
 .droppable{
-  background-color: rgb(106, 121, 124);
+  background-color: rgb(224, 241, 247) ;
 }
 
 @media screen and (max-width: 640px){
   .large-container{
     display: block;
     margin: .7rem;
+    margin-bottom: 50rem;
   }
   #main-header h1{
     font-size: 1.5rem;
