@@ -1,6 +1,7 @@
 # Project-planner
 *[OOP]: Object Oriented Principles
-##About project
+
+## About project
 **Features**
 -Manage projects between two list (Active and Finished projects)
 -Drag and Drop funtionality for moving projects
