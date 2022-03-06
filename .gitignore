@@ -2,3 +2,5 @@ node_modules
 scripts/
 webpack
 .eslintrc.json
+webpack.config.js
+webpack.config.prod.js
